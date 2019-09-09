@@ -1,0 +1,23 @@
+{
+  "name": "ran",
+  "version": "1.0.0",
+  "description": "ranran's personal space",
+  "main": "app.js",
+  "scripts": {
+    "test": "npm test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/wparam/ranran.space.git"
+  },
+  "keywords": [
+    "ranran",
+    "space"
+  ],
+  "author": "jiahong",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/wparam/ranran.space/issues"
+  },
+  "homepage": "https://github.com/wparam/ranran.space#readme"
+}
