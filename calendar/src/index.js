@@ -2,7 +2,7 @@ import React from 'react';
 import ReactDOM from 'react-dom';
 import 'antd/dist/antd.css';
 import './index.css';
-import { Calendar, Badge } from 'antd';
+import Container from './container';
 
 function getListData(value) {
   let listData;
@@ -65,6 +65,6 @@ function monthCellRender(value) {
 }
 
 ReactDOM.render(
-  <Calendar dateCellRender={dateCellRender} monthCellRender={monthCellRender} />,
-  document.getElementById('container'),
+  <Container />, 
+  document.getElementById('container')
 );
